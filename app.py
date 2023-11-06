@@ -55,7 +55,7 @@ openai.api_key = st.text_input("API key")
 prompt_template = ""
 
 with st.sidebar:
-  st.sidebar.image("aai.png", use_column_width=True)
+  st.sidebar.image("aai_white.png", use_column_width=True)
   chosen_file = st.file_uploader("Choose a file")
   if st.session_state.data_file != chosen_file:
       st.session_state.data_file = chosen_file
